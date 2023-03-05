@@ -1,0 +1,49 @@
+@use "sass:map";
+/**
+* Breakpoint -------------------- 
+*/
+$mobile-down: 600px;
+$mobile-up: 601px;
+$tablet-down: 1024px;
+$tablet-up: 1025px;
+$laptop-down: 1440px;
+$laptop-up: 1441px;
+
+/**
+* Color -------------------- 
+*/
+
+$colors: (
+  "black": #000,
+  "white": #fff,
+  "primary-1": #000,
+  "primary-2": #000,
+  "primary-3": #000,
+  "primary-4": #000,
+  "secondary-1": #000,
+  "secondary-2": #000,
+  "secondary-3": #000,
+  "secondary-4": #000,
+  "neutral-1": #000,
+  "neutral-2": #000,
+  "neutral-3": #000,
+  "neutral-4": #000,
+);
+
+$white: map.get($colors, "black");
+$black: map.get($colors, "white");
+
+$primary-1: map.get($colors, "primary-1");
+$primary-2: map.get($colors, "primary-2");
+$primary-3: map.get($colors, "primary-3");
+$primary-4: map.get($colors, "primary-4");
+
+$secondary-1: map.get($colors, "secondary-1");
+$secondary-2: map.get($colors, "secondary-2");
+$secondary-3: map.get($colors, "secondary-3");
+$secondary-4: map.get($colors, "secondary-4");
+
+$neutral-1: map.get($colors, "neutral-1");
+$neutral-2: map.get($colors, "neutral-2");
+$neutral-3: map.get($colors, "neutral-3");
+$neutral-4: map.get($colors, "neutral-4");

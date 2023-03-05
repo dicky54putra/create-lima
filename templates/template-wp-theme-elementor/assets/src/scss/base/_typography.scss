@@ -1,0 +1,62 @@
+@use "..//abstracts/typo-mixins";
+h1,
+.h1 {
+  @include typo-mixins.heading-1;
+}
+h2,
+.h2 {
+  @include typo-mixins.heading-2;
+}
+h3,
+.h3 {
+  @include typo-mixins.heading-3;
+}
+h4,
+.h4 {
+  @include typo-mixins.heading-4;
+}
+h5,
+.h5 {
+  @include typo-mixins.heading-5;
+}
+h6,
+.h6 {
+  @include typo-mixins.heading-6;
+}
+
+.subheading-1 {
+  @include typo-mixins.subheading-1;
+}
+.subheading-2 {
+  @include typo-mixins.subheading-2;
+}
+
+button,
+.button-1 {
+  @include typo-mixins.button-1;
+}
+
+.button-2 {
+  @include typo-mixins.button-2;
+}
+
+p,
+span,
+a,
+.body-1 {
+  @include typo-mixins.body-1;
+}
+.body-2 {
+  @include typo-mixins.body-2;
+}
+
+.small-1 {
+  @include typo-mixins.small-1;
+}
+.small-2 {
+  @include typo-mixins.small-2;
+}
+
+.test {
+  color: black;
+}
