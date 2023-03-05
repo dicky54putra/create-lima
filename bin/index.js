@@ -70,23 +70,23 @@ async function init(projectName, template) {
 }
 
 const FRAMEWORKS = [
-  {
-    name: "next",
-    display: "NEXT JS",
-    color: yellow,
-    variants: [
-      {
-        name: "vanilla",
-        display: "JavaScript",
-        color: yellow,
-      },
-      {
-        name: "vanilla-ts",
-        display: "TypeScript",
-        color: blue,
-      },
-    ],
-  },
+  // {
+  //   name: "next",
+  //   display: "NEXT JS",
+  //   color: yellow,
+  //   variants: [
+  //     {
+  //       name: "next",
+  //       display: "JavaScript",
+  //       color: yellow,
+  //     },
+  //     {
+  //       name: "next-ts",
+  //       display: "TypeScript",
+  //       color: blue,
+  //     },
+  //   ],
+  // },
   {
     name: "wp-theme-elementor",
     display: "WP THEME ELEMENTOR",
