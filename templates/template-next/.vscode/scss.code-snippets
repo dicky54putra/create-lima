@@ -1,0 +1,17 @@
+{
+  "@use variables": {
+    "prefix": "v",
+    "body": ["@use \"src/styles/abstracts/variables\" as v;"],
+    "description": "@use variables"
+  },
+  "@use typo-mixins": {
+    "prefix": "t",
+    "body": ["@use \"src/styles/abstracts/typo-mixins\" as t;"],
+    "description": "@use typo-mixins"
+  },
+  "@use mixins": {
+    "prefix": "m",
+    "body": ["@use \"src/styles/abstracts/mixins\" as m;"],
+    "description": "@use mixins"
+  }
+}

@@ -1,0 +1,12 @@
+@use "src/styles/abstracts/variables" as v;
+@use "src/styles/abstracts/functions" as f;
+
+@each $class, $value in v.$colors {
+	.#{$class} {
+		color: $value;
+	}
+
+	.bg-#{$class} {
+		background-color: $value;
+	}
+}
