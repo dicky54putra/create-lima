@@ -1,0 +1,10 @@
+@use "src/styles/abstracts/mixins" as m;
+
+.container {
+	@include m.container;
+}
+
+a {
+	text-decoration: none;
+	color: initial;
+}
