@@ -1,6 +1,6 @@
 {
   "name": "create-lima",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lima boilerplate",
   "main": "index.js",
   "bin": {

@@ -1,0 +1,5 @@
+Version 0.0.1 
+ => init with wordpres elmentor theme template
+
+Version 0.0.2
+ => add template next and next-ts beta
