@@ -7,13 +7,21 @@
     "create-lima": "./bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-wordpress": "ts-node src/modules/wordpress/downloadWordpress.ts"
   },
   "author": "Dicky54putra",
   "license": "ISC",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
   "dependencies": {
-    "fs-extra": "^11.1.0",
-    "kolorist": "^1.7.0",
+    "axios": "^1.7.7",
+    "fs-extra": "^11.2.0",
+    "kolorist": "^1.8.0",
     "minimist": "^1.2.8",
     "prompts": "^2.4.2"
   }
